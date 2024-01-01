@@ -1,6 +1,5 @@
 [workspace]
-resolver = "2"
+resolver = "1"
 members = [
-    "sha1_cracker",
     "tricoder",
 ]
