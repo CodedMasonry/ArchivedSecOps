@@ -5,7 +5,7 @@ use thiserror::Error;
 
 #[derive(Error, Debug, Clone)]
 pub enum Error {
-    #[error("Usage: Tricoder <kerkour.com>")]
+    #[error("Usage: tricoder <google.com>")]
     CliUsage,
     
     #[error("Reqwest: {0}")]
